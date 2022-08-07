@@ -4,7 +4,7 @@ function createCard(pictureURL, name, email, age, location) {
     newDiv.className = "card";
 
     let imgSet = document.createElement("img");
-    imgSet.setAttribute("src", "https://www.setaswall.com/wp-content/uploads/2017/11/Twitter-Cover-Photo-48-1500x500.jpg");
+    imgSet.setAttribute("src", "./img/Twitter-Cover-Photo-48-1500x500.jpg");
     imgSet.setAttribute("alt", "Picture");
     imgSet.className = "set-picture";
 

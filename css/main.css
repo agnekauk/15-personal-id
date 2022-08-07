@@ -43,8 +43,8 @@ body * {
     width: 100%;
 }
 .profile-photo {
-    max-width: 55%;
-    max-height: 55%;
+    width: auto;
+    height: 40%;
     object-fit: contain;
     border-radius: 50%;
     position: absolute;
